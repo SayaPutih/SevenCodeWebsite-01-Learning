@@ -17,7 +17,7 @@ const other = [
     det  : 'Drinks'
   },
   {
-    nama : 'Siomay',
+    nama : 'Siomay (A Serving)',
     harga : 'Rp 5.000,00',
     det  : 'Food'
   }
