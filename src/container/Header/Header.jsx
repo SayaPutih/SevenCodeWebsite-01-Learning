@@ -6,7 +6,7 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
 const Header = () => (
-  <div className ="app__header app__wrapper section__padding" id="home">
+  <div className ="app__header app__wrapper section__padding" id="Home">
 
       <div className="app__wrapper_info">
         <SubHeading title="Chase the new Flavour" />

@@ -50,7 +50,7 @@
 
 .app__specialMenu-menu_img img{
     width: 700px;
-    height: 200px;
+    height: 800px;
     margin: auto;
     max-height: 560px; /* Batas maksimum tinggi gambar */
     object-fit: contain; /* Pastikan gambar tetap proporsional */

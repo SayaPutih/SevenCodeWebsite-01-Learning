@@ -21,10 +21,10 @@ const Navbar = () => {
       </div>
   
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#About">About</a></li>
-        <li className="p__opensans"><a href="#Menu">Menu</a></li>
-        <li className="p__opensans"><a href="#Awards">Awards</a></li>
+        <li className="p__opensans"><a href="#Home" onClick={() => setToggleMenu(false)} >Home</a></li>
+        <li className="p__opensans"><a href="#About" onClick={() => setToggleMenu(false)} >About</a></li>
+        <li className="p__opensans"><a href="#Menu" onClick={() => setToggleMenu(false)} >Menu</a></li>
+        <li className="p__opensans"><a href="#Awards" onClick={() => setToggleMenu(false)}>Awards</a></li>
       </ul>
   
       <div className="app__navbar-login">
@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu  fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen-links">
-              <li className="p__opensans"><a href="#home" onClick={() => setToggleMenu(false)} >Home</a></li>
+              <li className="p__opensans"><a href="#Home" onClick={() => setToggleMenu(false)} >Home</a></li>
               <li className="p__opensans"><a href="#About" onClick={() => setToggleMenu(false)}>About</a></li>
               <li className="p__opensans"><a href="#Menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
               <li className="p__opensans"><a href="#Awards" onClick={() => setToggleMenu(false)}>Awards</a></li>

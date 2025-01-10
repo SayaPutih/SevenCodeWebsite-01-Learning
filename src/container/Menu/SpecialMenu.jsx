@@ -9,7 +9,7 @@ const SpecialMenu = () => (
   
   <div className="app__specialMenu 
                   flex__center
-                  section__padding" id="menu">
+                  section__padding" id="Menu">
 
 
     <div className="app__specialMenu-title ">

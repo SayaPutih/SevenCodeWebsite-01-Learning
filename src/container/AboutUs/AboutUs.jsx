@@ -8,7 +8,7 @@ import { SubHeading } from '../../components';
 const AboutUs = () => (
 
   <div className="app__aboutus app__bg flex__center
-                  section__padding" id="about">
+                  section__padding" id="About">
     
     <div className="app__aboutus-overlay flex__center">
       <img src={images.G} alt="G" />
