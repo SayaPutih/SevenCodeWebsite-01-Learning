@@ -1,13 +1,21 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
-import G from '../assets/G.png';
+
+import G from '../img/NewG.png';
+
+import plate from '../img/Plate.png';
+
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
-import knife from '../assets/knife.png';
+
+import knife from '../img/AboutUsCof.png';
+
 import logo from '../assets/logo.png';
-import menu from '../assets/menu.png';
+
+import menu from '../img/SpoonAndFork.png';
+
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.png';
@@ -34,6 +42,7 @@ import Welcome from '../img/Welcome.png';
 import Logo from '../img/Logo.png';
 
 export default {
+  plate,
 
   Logo,
   Welcome,

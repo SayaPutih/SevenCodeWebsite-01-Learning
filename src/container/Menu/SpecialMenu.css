@@ -40,13 +40,20 @@
 }
 
 .app__specialMenu-menu_img{
-    width: 410px;
-    margin: 0 2rem;
+    width: 510spx;
+    margin: 0 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 .app__specialMenu-menu_img img{
-    width: 100%;
-    height: auto;
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    max-height: 560px; /* Batas maksimum tinggi gambar */
+    object-fit: contain; /* Pastikan gambar tetap proporsional */
 }
 
 .app__specialMenu_menu_items{

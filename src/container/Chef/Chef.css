@@ -60,6 +60,12 @@
     }
 }
 
+@media screen and (max-width:650px){
+    .app__wrapper_img img{
+        
+    }
+}
+
 @media screen and (max-width:450px){
     .app__chef-sign img{
         width: 80%;

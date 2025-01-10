@@ -8,8 +8,9 @@
 }
 
 .app__aboutus-overlay img{
-    width:391px;
-    height:415px;
+    width:701px;
+    height:715px;
+    opacity: 20%;
     z-index:0;
 }
 
@@ -44,7 +45,12 @@
 
 
 .app__about-content_knife{
-    margin: 2rem 4rem;
+    margin: 2rem 1rem;
+    
+}
+
+.app__about-content_knife img{
+    width: 550px;
 }
 
 .app__aboutus-content_knife{
@@ -67,6 +73,10 @@
 
     .app__aboutus-content_knife{
         margin:4rem 0;
+    }
+
+    .app__about-content_knife{
+        
     }
 
 }
